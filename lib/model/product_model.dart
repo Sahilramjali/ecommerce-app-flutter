@@ -52,5 +52,61 @@ class Product extends Equatable {
         price: 70,
         isRecommended: false,
         isPopular: true),
+    Product(
+        name: 'Coke',
+        category: 'Soft Drinks',
+        imageUrl:
+            'https://images.unsplash.com/photo-1562952546-12992a813a51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNva2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+        price: 50,
+        isRecommended: true,
+        isPopular: true),
+    Product(
+        name: 'Orange',
+        category: 'Fruits',
+        imageUrl:
+            'https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGZydWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        price: 120,
+        isRecommended: true,
+        isPopular: true),
+    Product(
+        name: 'Strawberry',
+        category: 'Fruits',
+        imageUrl:
+            'https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJ1aXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+        price: 120,
+        isRecommended: true,
+        isPopular: true),
+    Product(
+        name: 'pineapple',
+        category: 'Fruits',
+        imageUrl:
+            'https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJ1aXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+        price: 120,
+        isRecommended: true,
+        isPopular: true),
+    Product(
+        name: 'Orange Juice',
+        category: 'Fruit juice',
+        imageUrl:
+            'https://media.istockphoto.com/photos/orange-juice-glass-jar-shot-on-rustic-wooden-table-picture-id915657126?b=1&k=20&m=915657126&s=170667a&w=0&h=N5gBvWtUcAIPCtPYmjs13jzb0qykCWeWvsQUFIMnSak=',
+        price: 120,
+        isRecommended: false,
+        isPopular: false),
+    Product(
+        name: 'Black labeled wine',
+        category: 'Wine',
+        imageUrl:
+            'https://images.unsplash.com/photo-1584916201218-f4242ceb4809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2luZSUyMGJvdHRsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        price: 120,
+        isRecommended: false,
+        isPopular: false),
+    Product(
+        name: 'Almond',
+        category: 'Dried Fruits',
+        imageUrl:
+            'https://images.unsplash.com/photo-1582390494081-de023fffb7df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZHJpZWQlMjBmcnVpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        price: 120,
+        isRecommended: true,
+        isPopular: true),
   ];
 }

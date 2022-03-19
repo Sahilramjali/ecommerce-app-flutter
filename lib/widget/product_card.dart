@@ -6,10 +6,12 @@ import '../model/product_model.dart';
 
 class ProductCard extends StatelessWidget {
   final Product products;
-  ProductCard({required this.products});
+  final double widthFactor;
+  ProductCard({required this.products, this.widthFactor = 2.5});
 
   @override
   Widget build(BuildContext context) {
+    final double widthValue = MediaQuery.of(context).size.width / widthFactor;
     return Stack(
       children: [
         Container(

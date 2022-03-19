@@ -13,11 +13,11 @@ class Category extends Equatable {
         imageUrl:
             'https://media.istockphoto.com/photos/healthy-food-background-healthy-vegan-vegetarian-food-in-paper-bag-picture-id1306511017?b=1&k=20&m=1306511017&s=170667a&w=0&h=rjKGrsfq96c3v_Wip1H1ep7RRz2Qf2C7z18o51LuDNw='),
     Category(
-        name: 'Friuts',
+        name: 'Fruits',
         imageUrl:
             'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZydWl0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'),
     Category(
-        name: 'Fruit juce',
+        name: 'Fruit juice',
         imageUrl:
             'https://images.unsplash.com/photo-1507120366498-4656eaece7fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwyMjk1Nzg4fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'),
     Category(

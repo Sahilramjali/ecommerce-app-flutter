@@ -3,13 +3,16 @@ import 'package:flutter/material.dart';
 import '../model/models.dart';
 
 class CarouselCard extends StatelessWidget {
-  final Category category;
-  CarouselCard({required this.category});
+  final Category? category;
+  final Product? product;
+  CarouselCard({this.category, this.product});
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: (() {
-        Navigator.pushNamed(context, '/catalog', arguments: category);
+        if (this.product == null) {
+          Navigator.pushNamed(context, '/catalog', arguments: category);
+        }
       }),
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 5.0, vertical: 20.0),
@@ -18,7 +21,7 @@ class CarouselCard extends StatelessWidget {
             child: Stack(
               children: <Widget>[
                 Image.network(
-                  category.imageUrl,
+                  product == null ? category!.imageUrl : product!.imageUrl,
                   fit: BoxFit.cover,
                   width: 1000.0,
                   height: 1000,
@@ -40,7 +43,7 @@ class CarouselCard extends StatelessWidget {
                     ),
                     padding: const EdgeInsets.symmetric(
                         vertical: 10.0, horizontal: 20.0),
-                    child: Text(category.name,
+                    child: Text(product == null ? category!.name : '',
                         style: Theme.of(context)
                             .textTheme
                             .headline2!

@@ -10,7 +10,7 @@ class customNavbar extends StatelessWidget {
     return BottomAppBar(
       color: Colors.black,
       child: Container(
-        height: 70,
+        height: 50,
         child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
           IconButton(
               onPressed: () {
